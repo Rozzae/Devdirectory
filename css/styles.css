@@ -1,0 +1,223 @@
+@media screen and (min-width: 300px) {
+
+    
+
+       
+    #btn-create-account{
+    
+        text-align: center;
+    
+        background-color: #ffffff;
+    
+        padding: 10px;
+    
+        font-weight: bold;
+    
+        color: #f30c32;
+    
+        border-radius: 6px;
+    
+        padding-left: 20px;
+    
+        padding-right: 20px;
+    
+        
+    
+    }
+
+    .jobs, .nigeria{
+
+        color: white;
+
+
+    }
+
+
+    #logo-large{
+
+        display: none;
+
+    }
+
+
+    #jumbotron{
+
+
+        background-image: url("../img/moble.jpg");
+        
+        background-size: cover;
+
+        border-radius: 0px;
+
+
+    }
+
+    
+    
+
+
+    }
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 480px) {
+
+
+    
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: 0.4s ease;
+        background-color: hsla(0, 0%, 100%, 0.842);
+        border: 2px solid black;
+      }
+      
+      .custom-container {
+        position: relative;
+        width: 100%;
+      }
+      
+      .custom-container:hover .overlay {
+        opacity: 1;
+        cursor: pointer;
+      }
+      
+      .text {
+      
+          color: rgb(255, 255, 255);
+          font-size: 20px;
+          position: absolute;
+          top: 70%;
+          left: 40%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+           transform: translate(-50%, -50%);
+           text-align: left;
+        
+      }
+      
+      
+
+    .extra-align{
+
+        width: 300px;
+
+        height: 300px;
+
+        margin: auto;
+
+    }
+
+
+    #logo-large{
+
+
+        width: 400px;
+
+        display: block;
+
+        
+
+
+    }
+
+
+    .nigeria{
+
+        color: white;
+    
+    }
+    
+    
+    
+    
+    .jobs{
+        
+        color: white;
+    
+        font-size: 40pt;
+    
+        padding-top: 50px;
+    
+       
+    
+    }
+    
+    
+    
+    
+    #jumbotron{
+    
+        background-image: url("../img/bg-lg.jpg");
+    
+        background-size: cover;
+    
+        border-radius: 0px;
+    
+        padding-bottom: 50px;
+
+       
+    
+    }
+    
+    
+    
+    #custom-navbar{
+    
+        background: transparent;
+    
+    }
+    
+    
+    /*
+    
+    css styling for the 
+    
+    top create account button 
+    
+    */
+    
+    #btn-create-account{
+    
+        text-align: center;
+    
+        background-color: #ffffff;
+    
+        padding: 10px;
+    
+        font-weight: bold;
+    
+        color: rgb(243, 13, 109);
+    
+        border-radius: 6px;
+    
+        padding-left: 20px;
+    
+        padding-right: 20px;
+
+        margin-right: 25px;
+    
+        
+    
+    }
+    
+      
+ }
+
+
+
+
+ 

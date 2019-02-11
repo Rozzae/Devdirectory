@@ -1,0 +1,80 @@
+body{
+
+    
+    padding-top: 50pt;
+
+    
+
+
+   
+}
+
+#clear-chat{
+
+    position: relative;
+
+    top: 130px;
+
+}
+
+
+#avatars{
+  
+    border-radius: 120px;
+  
+  }
+
+
+#posted-projects{
+  padding: 30px;
+  border: none;
+}
+
+#posted-projects:hover{
+
+
+    background: linear-gradient(to right, #ece7e7 , #f8f2f2);
+
+
+}
+
+
+
+
+#custom-pill{
+
+    background-color: black;
+
+   
+
+}
+
+
+#username, #password, #email{
+
+    border: 2px solid black;
+
+    color: black;
+
+    padding: 25px;
+
+}
+
+#change-username, #change-email{
+
+    border: 2px solid black;
+
+    color: black;
+
+    padding: 25px;
+
+
+}
+
+#add-skill{
+
+    border: 2px solid black;
+
+    padding: 24px;
+
+}
