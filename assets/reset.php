@@ -49,7 +49,6 @@
             <br>
             <p align="center">I just remembered my password <a style="color: #f30c32;" href="sign-in.php"> Sign In</a></p>
           </form>
-
         </div> 
       </div>
     </div>

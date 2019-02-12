@@ -22,14 +22,12 @@
       <button type="button" class="close" data-dismiss="alert">&times;</button>
       <strong>Congrats</strong> You have just Hired Maze Alizre.
     </div>
-    <br>
-    <br>
+    <br><br>
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">
           <img src="../img/avatars/17.jpg">
-          <br>
-          <br>
+          <br><br>
           <p>Abuja, Nigeria</p>
           <h1>Maze Alizre</h1>
           <p style="color:#ff014d; font-weight: bold;">Graphic Designer</p>
@@ -39,27 +37,19 @@
         </div>
       </div>
     </div>
-    <br>
-    <br>
-    <br>
+    <br><br><br>
     <div class="jumbotron" style="background: linear-gradient(to right, #ff2b94 , #f30c32); border-radius: 0px;">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center">
-            <br>
-            <br>
-            <br>
+            <br><br><br>
             <h1 style="color: white;">Work Level</h1>
             <br>
             <span class="badge badge-light"style="background-color: black; color: #f30c32; padding: 15px; width: 150px;">Beginner</span>
             <span class="badge badge-light"style="background-color: black; color: white; padding: 15px; width: 150px;">Intermidate</span>
             <span class="badge badge-light"style="background-color: black; color: white; padding: 15px; width: 150px;">Pro</span>
             <span class="badge badge-light"style="background-color: black; color: white; padding: 15px; width: 150px;">God</span>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <br><br><br><br><br>
           </div>
         </div>
       </div>
@@ -67,20 +57,14 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">
-          <br>
-          <br>
-          <br>
+          <br><br><br>
           <h1 style="color: rgb(0, 0, 0);">Skill Set</h1>
           <br>
           <span class="badge badge-light"style="background-color: black; color: white; padding: 15px; width: 150px;">HTML</span>
           <span class="badge badge-light"style="background-color: black; color: white; padding: 15px; width: 150px;">CSS</span>
           <span class="badge badge-light"style="background-color: black; color: white; padding: 15px; width: 150px;">JavaScript</span>
           <span class="badge badge-light"style="background-color: black; color: white; padding: 15px; width: 150px;">PhotoShop</span>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
+          <br><br><br><br><br>
         </div>
       </div>
     </div>
@@ -88,9 +72,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center">
-            <br>
-            <br>
-            <br>
+            <br><br><br>
             <h1 style="color: white;">Portfoilo</h1>
             <br>
             <div class="row">
@@ -107,17 +89,12 @@
                 <img src="../assets/portofolio/travel.jpg" class="img-fluid">
               </div>
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <br><br><br><br><br>
           </div>
         </div>
       </div>
     </div>
-    <br>
-    <br>
+    <br><br>
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">

@@ -157,8 +157,7 @@
                                 <b style="margin:1px; font-size:13px;">Cloudy Olowusa</b>
                                 <br>
                                 <small style="position: relative; left: 48px; font-size:13px;">UIX Designer</small>
-                                <br>
-                                <br>
+                                <br><br>
                             </div>
                             <div class="col-sm-3">
                                 <div class="custom-container">
@@ -180,13 +179,11 @@
                                 <b style="margin:1px; font-size:13px; font-size:13px;">Jane Freeman</b>
                                 <br>
                                 <small style="position: relative; left: 48px; font-size:13px;">Graphic Designer</small>
-                                <br>
-                                <br>
+                                <br><br>
                             </div>
                         </div>
                     </div>
-                    <br>
-                    <br>
+                    <br><br>
                     <div class="container">            
                         <div class="row">
                             <div class="col-sm-3">
@@ -209,8 +206,7 @@
                                 <b style="margin:1px; font-size:13px;">Joy Ogue</b>
                                 <br>
                                 <small style="position: relative; left: 48px; font-size:13px;">Graphic Designer</small>
-                                <br>
-                                <br>
+                                <br><br>
                             </div>
                             <div class="col-sm-3">
                                 <div class="custom-container">
@@ -232,8 +228,7 @@
                                     <b style="margin:1px; font-size:13px;">Mark Jone</b>
                                     <br>
                                     <small style="position: relative; left: 48px; font-size:13px;">IOS Developer</small>
-                                    <br>
-                                    <br>
+                                    <br><br>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="custom-container">
@@ -255,8 +250,7 @@
                                     <b style="margin:1px; font-size:13px;">Cloudy Olowusa</b>
                                     <br>
                                     <small style="position: relative; left: 48px; font-size:13px;">UIX Designer</small>
-                                    <br>
-                                    <br>
+                                    <br><br>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="custom-container">
@@ -278,13 +272,11 @@
                                         <b style="margin:1px; font-size:13px;">Jane Freeman</b>
                                         <br>
                                         <small style="position: relative; left: 48px; font-size:13px;">Graphic Designer</small>
-                                        <br>
-                                        <br>
+                                        <br><br>
                                     </div>
                                 </div>
                             </div>
-                            <br>
-                            <br>
+                            <br><br>
                             <div class="container">            
                                 <div class="row">
                                     <div class="col-sm-3">
@@ -307,8 +299,7 @@
                                         <b style="margin:1px; font-size:13px;">Joy Ogue</b>
                                         <br>
                                         <small style="position: relative; left: 48px; font-size:13px;">Graphic Designer</small>
-                                        <br>
-                                        <br>
+                                        <br><br>
                                     </div>
                                     <div class="col-sm-3">
                                         <div class="custom-container">
@@ -330,8 +321,7 @@
                                     <b style="margin:1px; font-size:13px;">Mark Jone</b>
                                     <br>
                                     <small style="position: relative; left: 48px; font-size:13px;">IOS Developer</small>
-                                    <br>
-                                    <br>
+                                    <br><br>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="custom-container">
@@ -353,8 +343,7 @@
                                     <b style="margin:1px; font-size:13px;">Cloudy Olowusa</b>
                                     <br>
                                     <small style="position: relative; left: 48px; font-size:13px;">UIX Designer</small>
-                                    <br>
-                                    <br>
+                                    <br><br>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="custom-container">
@@ -376,13 +365,11 @@
                                     <b style="margin:1px; font-size:13px;">Jane Freeman</b>
                                     <br>
                                     <small style="position: relative; left: 48px; font-size:13px;">Graphic Designer</small>
-                                    <br>
-                                    <br>
+                                    <br><br>
                                 </div>
                             </div>
                         </div>
-                        <br>
-                        <br>
+                        <br><br>
                     </div>
                 </div>
             </div>

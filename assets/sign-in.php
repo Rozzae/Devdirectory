@@ -98,8 +98,7 @@
           <!-- Tab panes -->
           <form action="<?php if(isset($_GET['success'])){ echo '../inc_processes/login_process.php?new=1';}else{echo '../inc_processes/login_process.php';}?>" method="POST">
             <img src="../img/icons/user-3.png" alt="avatar" width="80"/>        
-            <br>
-            <br>
+            <br><br>
             <hr style="width:200px; border: 2px solid rgb(245, 8, 75);">
             <br>
             <input type="email" class="form-control" name="email" placeholder="Email" id="username" required>

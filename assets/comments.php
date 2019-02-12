@@ -23,10 +23,17 @@
 <body>
   <!--Nav included as external file-->
   <?php include("nav.php"); ?>
-  <br>
-  <br>
-  <br>
-  <br>
+  <?php
+    if (isset($_GET['chaterror'])){
+      echo '
+        <div class="alert alert-success alert-dismissible" style="padding: 30px; border-radius: 0px; background: linear-gradient(to right, #31f1b4 , #66a00aa8); color: white;">  
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Error! </strong>You need to be Logged in to chat. <a href="sign-in.php">LOGIN HERE</a>
+        </div>
+      ';
+    }
+  ?>
+  <br><br><br><br>
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -39,67 +46,54 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <br>
-        <br>
+        <br><br>
         <img style="border-radius: 50px; position: relative; top: 5px;" src="../img/avatars/43.jpg" width="30" alt="user-1">
         <b style="margin:15px; color: black; font-size: 15px;">Cloudy Olowusa</b>
         <br>
         <small style="position: relative; left: 48px; color: black;">UIX Designer</small>
-        <br>
-        <br>
+        <br><br>
         <p style="color: black; font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
         <a href="" class="btn btn-link" style="color:#ff014d; text-decoration: none; float: right;">Reply</a>
-        <br>
-        <br>
+        <br><br>
         <img style="border-radius: 50px; position: relative; top: 5px;" src="../img/avatars/58.jpg" width="30" alt="user-1">
         <b style="margin:15px; color: black; font-size: 15px;">Cloudy Olowusa</b>
         <br>
         <small style="position: relative; left: 48px; color: black;">UIX Designer</small>
-        <br>
-        <br>
+        <br><br>
         <p style="color: black; font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
         <a href="" class="btn btn-link" style="color:#ff014d; text-decoration: none; float: right;">Reply</a>
-        <br>
-        <br>
+        <br><br>
         <img style="border-radius: 50px; position: relative; top: 5px;" src="../img/avatars/43.jpg" width="30" alt="user-1">
         <b style="margin:15px; color: black; font-size: 15px;">Cloudy Olowusa</b>
         <br>
         <small style="position: relative; left: 48px; color: black;">UIX Designer</small>
-        <br>
-        <br>
+        <br><br>
         <p style="color: black; font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
         <a href="" class="btn btn-link" style="color:#ff014d; text-decoration: none; float: right;">Reply</a>
         <img style="border-radius: 50px; position: relative; top: 5px;" src="../img/avatars/43.jpg" width="30" alt="user-1">
         <b style="margin:15px; color: black; font-size: 15px;">Cloudy Olowusa</b>
         <br>
         <small style="position: relative; left: 48px; color: black;">UIX Designer</small>
-        <br>
-        <br>
+        <br><br>
         <p style="color: black; font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
         <a href="" class="btn btn-link" style="color:#ff014d; text-decoration: none; float: right;">Reply</a>
-        <br>
-        <br>
+        <br><br>
         <img style="border-radius: 50px; position: relative; top: 5px;" src="../img/avatars/58.jpg" width="30" alt="user-1">
         <b style="margin:15px; color: black; font-size: 15px;">Cloudy Olowusa</b>
         <br>
         <small style="position: relative; left: 48px; color: black;">UIX Designer</small>
-        <br>
-        <br>
+        <br><br>
         <p style="color: black; font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
         <a href="" class="btn btn-link" style="color:#ff014d; text-decoration: none; float: right;">Reply</a>
-        <br>
-        <br>
+        <br><br>
         <img style="border-radius: 50px; position: relative; top: 5px;" src="../img/avatars/43.jpg" width="30" alt="user-1">
         <b style="margin:15px; color: black; font-size: 15px;">Cloudy Olowusa</b>
         <br>
         <small style="position: relative; left: 48px; color: black;">UIX Designer</small>
-        <br>
-        <br>
+        <br><br>
         <p style="color: black; font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
         <a href="" class="btn btn-link" style="color:#ff014d; text-decoration: none; float: right;">Reply</a>
-        <br>
-        <br>
-        <br>
+        <br><br><br>
         <form action="" method="">
           <input type="text" class="form-control" style="border: 2px solid black; padding: 20px; border-top: none; border-left: none; border-right: none; border-radius: 0px;">
           <br>

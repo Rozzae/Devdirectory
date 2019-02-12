@@ -31,8 +31,7 @@
       </ul>
     </div>  
   </nav>
-  <br>
-  <br>
+  <br><br>
     <div class="container">
       <div class="row">
         <div class="col-sm-6 text-center">
@@ -45,9 +44,7 @@
           <hr style="width:200px; border: 2px solid rgb(245, 8, 75);">
         </div>
         <div class="col-sm-4">
-        <br>
-        <br>
-
+        <br><br>
         <ul class="nav nav-tabs nav-justified">
           <li class="nav-item">
             <a style="font-size: 15px; text-decoration: none; color: rgb(0, 0, 0); border: 3px solid #f30c32; border-top: none; border-left: none; border-right: none;" class="nav-link active" data-toggle="tab" href="#guest">Client</a>
