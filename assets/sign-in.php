@@ -111,7 +111,6 @@
             <a style="color: #f30c32;" href="reset.php"> Forgot Password</a>
           </form>
         </div>
-      </div>        
-      
-     <!--Footer included as external file-->
-<?php include("footer.php"); ?>
+      </div>            
+  <!--Footer included as external file-->
+  <?php include("footer.php"); ?>

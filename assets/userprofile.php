@@ -17,7 +17,6 @@
 
     <body>
         <?php
-
             if (!$_SESSION['id']){
                 header('location: ../assets/sign-in.php?alert=1');
             }

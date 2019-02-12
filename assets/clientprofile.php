@@ -388,4 +388,4 @@
             </div>
         </div>
         <!--Footer included as external file-->
-<?php include("footer.php"); ?>
+        <?php include("footer.php"); ?>

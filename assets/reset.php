@@ -21,17 +21,6 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a style="margin-right: 15px;" class="nav-link" href="#">Sign In</a>
-          </li>
-          <li class="nav-item">
-            <a id="btn-create-account" class="nav-link btn-primary btn-md" href="#">Create Account</a>
-          </li>
-        </ul>
-      </div>  
     </nav>
     <br><br>    
     <div class="container">

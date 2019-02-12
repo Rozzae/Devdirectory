@@ -1,3 +1,11 @@
+<?php require_once("../inc_processes/session.php");?>
+<?php require_once("../inc_processes/profile_process.php");?>
+<?php
+    if (isset($_SESSION['id'])){
+        $type = $_SESSION['type'];
+        $userid = $_SESSION['id'];
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,28 +21,9 @@
   <script src="../bs/maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-        <a class="navbar-brand" href="explore.php">
-            <img src="../img/logo/logo.png" alt="logo" style="width:70px;"> Devdirectory.oi
-          </a>
-          
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a style="margin-right: 15px;" class="nav-link" href="#">Sign In</a>
-            </li>
-            <li class="nav-item">
-              <a id="btn-create-account" class="nav-link btn-primary btn-md" href="#">Create Account</a>
-            </li>
-            </ul>
-        </div>  
-      </nav>
-      <br>
+  <!--Nav included as external file-->
+  <?php include("nav.php"); ?>
+        <br>
        <br>
          <div class="container">
            <div class="row">

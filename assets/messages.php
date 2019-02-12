@@ -1,3 +1,11 @@
+<?php require_once("../inc_processes/session.php");?>
+<?php require_once("../inc_processes/profile_process.php");?>
+<?php
+    if (isset($_SESSION['id'])){
+        $type = $_SESSION['type'];
+        $userid = $_SESSION['id'];
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,44 +21,8 @@
   <script src="../bs/maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-        <a class="navbar-brand" href="explore.php">
-            <img src="../img/logo/logo.png" alt="logo" style="width:70px;"> Devdirectory.oi
-          </a>
-          
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                
-                  <a style="margin-right: 15px; color: white;" class="nav-link" href="messages.php"> Messages <span style="background-color: #ff014d; color: white;" class="badge badge-light"> 4</span></a>
-               
-  
-                </li>
-
-                <li class="nav-item">
-                
-                  <a style="margin-right: 15px; color: white;" class="nav-link" href="workoffers.php"> Work Offers <span style="background-color: #ff014d; color: white;" class="badge badge-light"> 10</span></a>
-               
-  
-                </li>
-         
-         
-            <li class="nav-item">
-              <a style="margin-right: 15px; color: white;" class="nav-link" href="userprofile.php"><img src="../img/avatars/user.png" width="30" alt="user"/> Hi, Cloudbridy</a>
-              
-            
-            </li>
-               
-            <li class="nav-item">
-              <a id="btn-create-account" class="nav-link btn-primary btn-md" href="gopro.php">Go Premuim</a>
-            </li>
-            </ul>
-        </div>  
-      </nav>
+  <!--Nav included as external file-->
+  <?php include("nav.php"); ?>
      
      
       <br>
