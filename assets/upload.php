@@ -43,7 +43,7 @@
         }else{
             header('location: 500.php');
         }
-        $uploadOk = 0;
+        $uploadOk = 1;
     }
 
     // Check file size
