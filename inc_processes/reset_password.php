@@ -103,7 +103,7 @@
                     die("Database connection failed: ");
                 }else{
                     //More Success
-                    $query= "DELETE FROM password_tokens WHERE id>0";
+                    $query= "DELETE FROM password_tokens WHERE user_id='{$user_id}'";
                     $result= mysqli_query($connection,$query);
                     header('location: ../assets/sign-in.php?passreset=1');
                 }
@@ -112,39 +112,7 @@
             }
         }else{
             //Failed
-            echo '
-            <!DOCTYPE html>
-            <html lang="en">
-                <head>
-                <title>500 Internal server error</title>
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                <link href="../css/styles.css" rel="stylesheet">
-                <link href="../css/learnmore.css" rel="stylesheet">
-                
-                <link rel="stylesheet" href="../bs/maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-                <script src="../bs/ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-                <script src="../bs/cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-                <script src="../bs/maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-                </head>
-            
-                <body style="background-image: url("../includes/500.jpg"); background-size: cover;">
-                <br>
-                <br>                        
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 text-center">
-                        <h1 style="font-size: 50px; color:#ff0f57;">Something went wrong: Paa Failed</h1>
-                        <h3 style="color: #ff0f57;">Reason: Password Mismatch </h3>
-                            <br>
-                            <a href="../assets/changepassword.php" class="btn btn-default" style="background-color:#ff014d; color: white; text-decoration: none; padding: 15px;">back</a>
-                        </div>
-                    </div>
-                </div>    
-                <script src="../js/datetime.js"></script>
-                </body>
-            </html>
-            ';
+            header('location: ../assets/changepassword.php?passmismatch=1');
             
         }
     }

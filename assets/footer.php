@@ -1,5 +1,3 @@
-<?php require_once("../inc_processes/session.php");?>
-<?php require_once("../inc_processes/profile_process.php");?>
 <?php
     $devs = $des = $cli = "";
     //Get number of developers
@@ -31,9 +29,9 @@
                     <div class="col-sm-4 text-center">
                         <b style="color:white; font-weight: lighter;">Follow Us</b>
                         <br><br>
-                        <img style="padding:5px;" src="../img/social/facebook-logo-button.png" width="30">
-                        <img style="padding:5px;" src="../img/social/twitter (2).png" width="30">
-                        <img style="padding:5px;" src="../img/social/instagram (1).png" width="30">
+                        <i class="fab fa-facebook" style="color: blue; padding: 5px; width:30;"></i>
+                        <i class="fab fa-twitter" style="color: blue; padding: 5px; width:30;"></i>
+                        <i class="fab fa-instagram" style="color: blue; padding: 5px; width:30;"></i>
                     </div>
                     <div class="col-sm-4 text-center">
                         <b style="color:white; font-weight: lighter;">Clients</b>

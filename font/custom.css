@@ -1,0 +1,55 @@
+#btn-lgn {
+    font-size: 15px;
+    padding: 8px;
+    border-radius:20px; 
+    background-color: transparent; 
+    border: 1px solid whitesmoke; 
+    color: whitesmoke;
+}
+#input-lgn {
+    border-radius: 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    width: 100%;
+}
+#input-lgn:focus{
+    border:none; 
+    border-bottom: 1px solid whitesmoke;  
+    outline: none; 
+}
+#lgn-form {
+    font-size: 12px;
+    color:whitesmoke;
+}
+#btn-fb {
+    font-size: 15px;
+    padding: 8px;
+    font-weight: 10px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+[class="fab fa-facebook-square"] {
+    font-size: 18px;
+    color: blue;
+}
+#lgn-para {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 13px;
+}
+#biz-info-head {
+    background-color: rgb(230, 119, 86) !important; 
+    font-size:17px !important; 
+    color: whitesmoke !important;
+}
+#biz-info-head a {
+    text-decoration: none !important;
+    color: whitesmoke !important;
+}
+#biz-info-card {
+    min-width: 200px;
+}
+#biz-name-rate {
+    color: rgb(230, 119, 86);
+}

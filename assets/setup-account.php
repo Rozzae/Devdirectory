@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="../css/styles.css" rel="stylesheet">
   <link href="../css/learnmore.css" rel="stylesheet">
+  <link href="../font/all.css" rel="stylesheet">
   
   <link rel="stylesheet" href="../bs/maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <script src="../bs/ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -118,4 +119,3 @@
     </div>
   </div>
   <!--Footer included as external file-->
-  <?php include("footer.php"); ?>
